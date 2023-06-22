@@ -79,13 +79,14 @@ img{
 .topline-nav{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-        padding-bottom: 24px;
+    
 }
 .topline-list{
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .logo-studio{
