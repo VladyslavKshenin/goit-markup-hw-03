@@ -84,7 +84,7 @@ img{
     align-items: center;
     gap: 40px;
     padding-top: 24px;
-        padding-bottom: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -99,9 +99,6 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        padding-top: 24px;
-        padding-bottom: 24px;
-
 }
 .topline-link:hover, .topline-link:focus {
          color: #404BBF;
@@ -327,7 +324,7 @@ img{
             text-transform: uppercase;
             color: var(--logo-cl);
             margin-bottom: 16px;
-            display: inline-block;
+            display: block;
 }
 .logo-studio-footer{
     color: #f4f4fd;
