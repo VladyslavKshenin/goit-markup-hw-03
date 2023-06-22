@@ -73,10 +73,6 @@ img{
         text-transform: uppercase;
         color: var(--logo-cl);
         margin-right: 76px;
-        padding-top: 24px;
-            padding-bottom: 24px;
-        
-
 }
 .topline-nav{
     display: flex;
@@ -87,6 +83,8 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
     
 }
 
@@ -101,6 +99,8 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
 }
 .topline-link:hover, .topline-link:focus {
@@ -318,7 +318,7 @@ img{
     
 }
 .footer-logo{
-        font-family: 'Raleway', sans-serif;
+            font-family: 'Raleway', sans-serif;
             font-style: normal;
             font-weight: 800;
             font-size: 18px;
@@ -326,14 +326,14 @@ img{
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--logo-cl);
-            display: inline-block;
             margin-bottom: 16px;
+            display: inline-block;
 }
 .logo-studio-footer{
     color: #f4f4fd;
 }
 .foter-text{
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
@@ -385,9 +385,6 @@ img{
   |============================
 */
 
-.porfolio-page{
-
-}
 
 .row-list{
     display: flex;
