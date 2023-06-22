@@ -73,6 +73,8 @@ img{
         text-transform: uppercase;
         color: var(--logo-cl);
         margin-right: 76px;
+        padding-top: 24px;
+            padding-bottom: 24px;
         
 
 }
@@ -85,8 +87,7 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-        padding-bottom: 24px;
+    
 }
 
 .logo-studio{
@@ -314,16 +315,19 @@ img{
 .container-footer{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    
 }
 .footer-logo{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: #F4F4FD;
+        font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--logo-cl);
+            display: inline-block;
+            margin-bottom: 16px;
 }
 .logo-studio-footer{
     color: #f4f4fd;
