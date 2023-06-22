@@ -99,6 +99,9 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
 }
 .topline-link:hover, .topline-link:focus {
          color: #404BBF;
@@ -324,7 +327,7 @@ img{
             text-transform: uppercase;
             color: var(--logo-cl);
             margin-bottom: 16px;
-            display: block;
+            display: inline-block;
 }
 .logo-studio-footer{
     color: #f4f4fd;
