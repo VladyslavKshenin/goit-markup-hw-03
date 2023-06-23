@@ -11,6 +11,7 @@
     --logo-heading-cl: #2E2F42;
     --section-bg: #2e2f42;
     --porfolio-bt-bg:#F4F4FD;
+    --porfolio-bt-style: #e7e9fc;
     
     /*Others*/
 }
@@ -378,9 +379,7 @@ img{
     padding-top: 96px;
 }
 .container-porfolio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
 }
 /**
   |============================
@@ -393,6 +392,7 @@ img{
     align-items: center;
     gap: 24px;
     margin-bottom: 72px;
+    justify-content: center;
 }
 .portf-btm {
         font-family: "Roboto", sans-serif;
@@ -403,10 +403,15 @@ img{
         color: var(--logo-cl);
         background-color: var(--porfolio-bt-bg);
         cursor: pointer;
+
+        border-radius: 4px;
+        padding: 12px 24px;
+        border: 1px solid var(--porfolio-bt-style);
 }
 .portf-btm:hover, .portf-btm:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 /**
   |============================
@@ -422,18 +427,25 @@ img{
     row-gap: 48px;
 }
 .row-item{
-    width: calc((100%-2*24)/3);
+    width: calc((100% - 48px) / 3);
+}
+.container-row-subtitle{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 .row-subtitle {
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--logo-heading-cl);
+        margin-bottom: 8px;
 }
 
 .row-text {
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--body-cl);
